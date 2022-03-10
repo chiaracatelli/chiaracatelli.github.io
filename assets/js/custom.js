@@ -6,9 +6,9 @@ $(window).on('load', function() {
     })
     .ajaxStop(function() {
         $(this).hide();
-    })
-;
-})
+    });
+    console.log('All assets are loaded')
+});
 
 
 
