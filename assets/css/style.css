@@ -865,6 +865,23 @@ section .container {
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  bottom:8%;
+  left: 5%;
+}
+.portfolio .portfolio-wrap .portfolio-info h5 {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  bottom:1%;
+  left: 5%;
+}
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
