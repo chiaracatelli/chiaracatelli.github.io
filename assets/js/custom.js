@@ -1,4 +1,5 @@
-$('#loading')
+$(window).on('load', function() {
+    $('#loading')
     .hide()  // Hide it initially
     .ajaxStart(function() {
         $(this).show();
@@ -7,6 +8,9 @@ $('#loading')
         $(this).hide();
     })
 ;
+})
+
+
 
 
 (function($) {
