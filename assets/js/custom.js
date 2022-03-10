@@ -1,7 +1,13 @@
-AOS.init({
-    duration: 800,
-    easing: 'slide'
-});
+$('#loading')
+    .hide()  // Hide it initially
+    .ajaxStart(function() {
+        $(this).show();
+    })
+    .ajaxStop(function() {
+        $(this).hide();
+    })
+;
+
 
 (function($) {
 
@@ -232,8 +238,5 @@ AOS.init({
    fixedContentPos: false
  });
 
-
-
-
-})(jQuery);
+});
 
