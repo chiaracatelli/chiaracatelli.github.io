@@ -922,6 +922,8 @@ section .container {
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
 }
+
+
 .contact .info-box i.bx {
   font-size: 24px;
   color: #ffd33c;
@@ -930,19 +932,66 @@ section .container {
   float: left;
   background: rgba(255, 255, 255, 0.1);
 }
+
+.info-box i.bx:hover {
+  font-size: 24px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 14px;
+  float: left;
+  background: #c33c82;
+}
+
+
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  margin: 10px 0 8px 68px;
+  margin: 0 0 5px 5px;
 }
-.contact .info-box p {
-  padding: 0;
+
+.email{
   color: #fff;
   line-height: 24px;
   font-size: 14px;
-  margin: 0 0 0 68px;
+  margin: 25px 68px 0 -48px;
 }
+
+.linkedin{
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 25px 68px 0 -74px;
+}
+
+.instagram{
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 25px 68px 0 -88px;
+}
+
+.twitter{
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 25px 68px 0 -60px;
+}
+
+.flickr{
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 25px 68px 0 -50px;
+}
+
+.facebook{
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 25px 68px 0 -83px;
+}
+
 .contact .info-box .social-links {
   margin: 5px 0 0 68px;
   display: flex;

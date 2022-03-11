@@ -17,7 +17,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
-
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -63,8 +63,10 @@
       <div class="social-links">
         <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
         <!-- <a href="https://it-it.facebook.com/chiara.catelli.5" class="facebook"><i class="bi bi-facebook"></i></a> -->
-        <a href="https://www.instagram.com/_likeaunicorn/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://it.linkedin.com/in/chiara-catelli-3898671a5" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:chiaracatelli01@gmail.com"><i class="fa-regular fa-envelope"></i></i></a>
+        <a href="https://www.instagram.com/_likeaunicorn/" ><i class="bi bi-instagram"></i></a>
+        <a href="https://it-it.facebook.com/chiara.catelli.5" ><i class="bi bi-facebook"></i></a>
+        <a href="https://it.linkedin.com/in/chiara-catelli-3898671a5" ><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -962,51 +964,84 @@
         <h2>Contact</h2>
       </div>
 
-      <div class="row mt-2">
+      <div class="row mt-2" style="--bs-gutter-x: 4.5rem">
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
+            <a href="mailto:chiaracatelli01@gmail.com">
+            <i class="bx bx-envelope"></i>
+            </a>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <h3 >Email</h3>
+                <p class="email"><i>chiaracatelli01@gmail.com</i></p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>chiaracatelli01@gmail.com</p>
-          </div>
+            <a href="https://it.linkedin.com/in/chiara-catelli-3898671a5">
+            <i class="bx bxl-linkedin"></i>
+            </a>
+            <div class="social-links">
+              <h3>LinkedIn</h3>
+              <p class="linkedin"><i>Chiara Catelli</i></p>
+            </div>
+           </div>
         </div>
-      </div>
 
-      <form id="gform" name="gform" action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
+          <div class="info-box">
+            <a href="https://www.instagram.com/_likeaunicorn/">
+            <i class="bx bxl-instagram"></i>
+            </a>
+            <div class="social-links">
+              <h3>Instagram</h3>
+              <p class="instagram"><i>@_likeaunicorn</i></p>
+            </div>
+           </div>
         </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
+          <div class="info-box">
+            <a href="https://mobile.twitter.com/_likeaunicorn">
+            <i class="bx bxl-twitter"></i>
+            </a>
+            <div class="social-links">
+              <h3>Twitter</h3>
+              <p class="twitter"><i>@_likeaunicorn</i></p>
+            </div>
+           </div>
         </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
+          <div class="info-box">
+            <a href="https://www.flickr.com/photos/98056398@N07/">
+            <i class="bx bxl-facebook"></i>
+            </a>
+            <div class="social-links">
+              <h3>Facebook</h3>
+              <p class="facebook"><i>chiara.catelli</i></p>
+              
+            </div>
+           </div>
         </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+
+        <div class="col-md-6 mt-5 d-flex align-items-stretch">
+          <div class="info-box">
+            <a href="https://www.flickr.com/photos/98056398@N07/">
+            <i class="bx bxl-flickr"></i>
+            </a>
+            <div class="social-links">
+              <h3>Flickr</h3>
+              <p class="flickr"><i>@Quindirimani</i></p>
+              
+            </div>
+           </div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
+
+        
+      </div>
 
     </div>
   </section><!-- End Contact Section -->
@@ -1020,6 +1055,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/typed/typed.js"></script>
+  <script src="https://kit.fontawesome.com/35a1eaeda0.js" crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
