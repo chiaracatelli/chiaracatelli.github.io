@@ -992,6 +992,28 @@ section .container {
   margin: 25px 68px 0 -83px;
 }
 
+.cv{
+  padding: 10px 35px;     
+  background-color: transparent; 
+  color: #ffd33c; 
+  letter-spacing: -.2px; 
+  text-decoration: none; 
+  border-radius: 10px; 
+  border-color: #ffd33c;
+  font-size: 15px;
+}
+
+.cv:hover{
+  padding: 10px 35px;     
+  background-color: #c33c82; 
+  color: white;
+  letter-spacing: -.2px; 
+  text-decoration: none; 
+  border-radius: 10px; 
+  border-color: transparent;
+  font-size: 15px;
+}
+
 .contact .info-box .social-links {
   margin: 5px 0 0 68px;
   display: flex;
